@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrapali Sinha | Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo" data-aos="fade-down">
+                <span>A</span>mrapali
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Back to Portfolio</a></li>
+                    <li class="nav__item language-switcher">
+                        <button class="lang-btn" id="lang-toggle">EN/हिं</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Profile Main Section -->
+    <main class="profile-main">
+        <section class="profile-banner">
+            <div class="container">
+                <div class="profile-header" data-aos="fade-up">
+                    <div class="profile-intro">
+                        <div style="text-align: center; margin-top: 20px;">
+                            <img src="images/profilepic.jpeg" alt="Amrapali Sinha" style="display: block; margin: 0 auto; width: 200px; height: auto; border-radius: 10px;">
+                          
+                            <h1 style="margin: 10px 0; font-size: 28px; color: #4a4e69;">Amrapali Sinha</h1>
+                            <p style="margin: 5px 0; color: #555; font-style: italic;">Student & Aspiring Developer</p>
+                          
+                            <div style="margin-top: 5px; color: #777; font-size: 16px;">
+                              <i class="fas fa-map-marker-alt" style="color: #f67280;"></i>
+                              <span>Agartala, India</span>
+                            </div>
+                          </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile-about">
+            <div class="container">
+                <div class="about-content">
+                    <h2 data-aos="fade-up">About Me</h2>
+                    <p data-aos="fade-up" data-aos-delay="100">
+                        Currently a student and still learning different languages and exploring different 
+                        sections of Computer Science. Passionate about game development, app development, 
+                        building web applications. I am here to learn more and grow into a great developer 
+                        and an amazing individual.
+                    </p>
+                    <div class="about-btns" data-aos="fade-up" data-aos-delay="200">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        <a href="#" class="btn btn-secondary">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile-skills">
+            <div class="container">
+                <h2 data-aos="fade-up">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <span class="skill-name">HTML5</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">CSS3/Sass</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">React</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- App Development Skills -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-header">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>App Development</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <span class="skill-name">Android Studio</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 75%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">Flutter</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 65%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">Kotlin</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 60%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Game Development Skills -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <div class="skill-header">
+                            <i class="fas fa-gamepad"></i>
+                            <h3>Game Development</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>
+                                <span class="skill-name">Unity</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">Unreal Engine</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 50%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="skill-name">C/C++</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile-timeline">
+            <div class="container">
+                <h2 data-aos="fade-up">My Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-date">2022 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Computer Science Student</h3>
+                            <p>Currently pursuing my degree in Computer Science while working on personal projects to enhance my skills.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h3>First Web Project</h3>
+                            <p>Developed my first complete website - a food delivery platform with basic functionality.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h3>Started Learning Programming</h3>
+                            <p>Began my coding journey with C and C++, then moved to web technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>A</span>mrapali Sinha
+                </div>
+                <p>Passionate about creating digital experiences that matter.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Amrapali Sinha. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
