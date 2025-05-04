@@ -1,8 +1,8 @@
 /* Base Styles & Variables */
 :root {
-    --primary-color: #9b8bc6;        /* darker pastel lavender */
+    --primary-color: ##9578e5;        /* darker pastel lavender */
     --secondary-color: #6ecbd4;      /* darker pastel teal */
-    --accent-color: #f4a5a8;         /* deeper pastel pink */
+    --accent-color: #0b0867;         /* deeper pastel blue */
     --dark-color: #4a3e5f;           /* deeper muted plum */
     --light-color: #f6f6fa;          /* pastel off-white */
     --text-color: #3e4153;           /* darker soft charcoal */
