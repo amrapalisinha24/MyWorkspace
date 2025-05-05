@@ -9,7 +9,7 @@
     --text-light: #777;              /* darker soft gray */
     --success-color: #a5d87f;        /* richer pastel green */
     --warning-color: #fcd86d;        /* deeper pastel yellow */
-    --danger-color: #f2678a;         /* stronger pastel red-pink */
+    --danger-color: #f46071;         /* stronger pastel red-pink */
 }
 
 * {
@@ -676,7 +676,7 @@ section {
 }
 
 .footer-bottom i {
-    color: var(--accent-color);
+    color: var(--danger-color);
 }
 
 /* Back to Top Button */
